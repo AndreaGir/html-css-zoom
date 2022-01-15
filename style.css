@@ -7,20 +7,46 @@
 /* main */
 
 .back-color{
-    background-color: white;
+    background-color: black;
     width: 100%;
     height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
+.schermata-utente{
+    width: 13%;
+    height: 18%;
+    position: relative;
+    margin: 2px;
+    margin: 0 auto;
+}
+.immagine{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.nome-utente{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white; 
+    width: 78px;
+    height: 20px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
 /* footer */
 .barra-sotto{
-    background-color: grey;
+    background-color: rgb(29, 27, 27);
     width: 100%;
     height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: white;
 }
 .parte-destra{
     display: flex;
