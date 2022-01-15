@@ -1,25 +1,79 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.back-black{
+/* main */
+
+.back-color{
+    background-color: white;
     width: 100%;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    align-items: flex-end;
-   
+    height: 90vh;
 }
-.barra-bottom{
-    height: 60px;
+
+
+/* footer */
+.barra-sotto{
+    background-color: grey;
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parte-destra{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+
+}
+.fuori-icona{
+    display: flex;
+    flex-direction: column;
+    gap: 0 20px;
+}
+.microfono {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.icona-freccia{
+    display: flex;
+    align-items: center;
     
 }
-.foto-account{
-    width: 13%;
-    height: 16vh;
-    border: 1px solid white;
+.icona{
+    font-size: 25px;
+    text-align: center;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+/* cenrtro */
+.parte-centro{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* destra */
+.parte-sinistra{
+    width: 100px;
+    max-height: 63px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+    text-align: center;
+    line-height: 63px;
+    color: red;
 }
