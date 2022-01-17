@@ -68,7 +68,7 @@
 .icona-freccia{
     display: flex;
     align-items: center;
-    
+    padding-left: 10px;
 }
 .icona{
     font-size: 25px;
@@ -96,7 +96,7 @@
 
 /* destra */
 .parte-sinistra{
-    width: 100px;
+    max-width: 100px;
     max-height: 63px;
     background-color: rgba(255, 255, 255, 0.2);
     font-size: 13px;
